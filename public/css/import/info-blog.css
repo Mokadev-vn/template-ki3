@@ -1,0 +1,24 @@
+.content{
+    padding: 0 10px;
+}
+
+.info-blog-title{
+    font-size: 28px;
+}
+
+.info-blog-post{
+    margin-top: 8px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 14px;
+
+}
+
+.info-blog-post img{
+    display: block;
+    padding: 20px 0;
+    max-width: 90%;
+    margin: auto;
+    height: 360px;
+}
+

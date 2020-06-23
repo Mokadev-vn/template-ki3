@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản Phẩm</title>
+    <link href="public/css/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="public/css/style.css">
+    <link href="public/css/carousel/carousel.css" rel="stylesheet" type="text/css">
+    <link href="public/css/carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="public/css/carousel/owl.theme.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0&appId=2207641452826714&autoLogAppEvents=1"
+        nonce="0rDyH1KX"></script>
+    <div class="app">
+        <header class="header container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light container menu">
+                <a class="navbar-brand" href="index.html"><img src="public/images/logo.png" alt=""></a>
+                <div class="header-icon">
+                    <ul class="nav utilities">
+                        <li class="nav-item" id="search"><i class="fa fa-search"></i>
+                            <div class="search-form" id="search-form">
+                                <div class="input-group">
+                                    <input class="form-control border-secondary py-2" type="search" value="search">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-secondary" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item" id="cart">
+                            <i class="fa fa-shopping-basket"></i>
+                            <span class="qty">3</span>
+                            <div class="list-cart" id="list-cart">
+                                <p class="list-cart-text">Có <span>2 sản phẩm</span> trong giỏ hàng </p>
+                                <ul class="cart-item">
+                                    <li>
+                                        <a href=""><img src="public/images/hoa-qua-2.jpg" alt=""
+                                                class="cart-item-thumbnail"></a>
+                                        <div class="cart-item-info">
+                                            <a href="">Nho Đen Mỹ</a>
+                                            <p class="cart-item-price">350.000đ</p>
+                                            <p class="cart-item-count">Số Lượng <span>1</span></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="public/images/hoa-qua-3.jpg" alt=""
+                                                class="cart-item-thumbnail"></a>
+                                        <div class="cart-item-info">
+                                            <a href="">Nho Xanh Mỹ</a>
+                                            <p class="cart-item-price">150.000đ</p>
+                                            <p class="cart-item-count">Số Lượng <span>1</span></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <p class="total-price">
+                                    Tổng Giá:
+                                    <span>500.000đ</span>
+                                </p>
+                                <div class="cart-btn">
+                                    <a href="" class="btn btn-info cart-btn-view">Xem Giỏ Hàng</a>
+                                    <a href="" class="btn btn-danger cart-btn-checkout">Thanh Toán</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="index.html">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link menu-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                SẢN PHẨM
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="product.html">Thịt Bò Úc</a>
+                                <a class="dropdown-item" href="product.html">Rau Sạch</a>
+                                <a class="dropdown-item" href="product.html">Hoa Quả</a>
+                                <a class="dropdown-item" href="product.html">Thịt Trâu Ấn Độ</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="blog.html">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="about.html">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container-fluid clear-pm position-relative">
+            <img src="public/images/banner.png" alt="" class="banner-page">
+            <ul class="bread text-center">
+                <li><a href="">Trang Chủ</a></li>
+                <li><a href="">Tin Tức</a></li>
+            </ul>
+        </div>
+        <main class="main">
+
+            <div class="container blogger">
+                <div class="row">
+                    <section class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6 thumbnail-info">
+                                <img src="public/images/thumb-kiwi-vang.gif" alt="">
+                            </div>
+                            <div class="col-md-6 detail-info">
+                                <span id="favorite"></span>
+                                <h1 class="detail-info-title">Kiwi Vàng New Zealand</h1>
+                                <span class="code-order">Mã Sản Phẩm: 0015</span>
+                                <span class="detail-info-price">160.000đ</span>
+                                <p class="detail-info-describe">Kiwi vàng có hình bầu dục, kích thước từ 5 đến 8cm chiều
+                                    dài, và 4,5 đến 5,5 cm, trọng lượng trung bình mỗi quả từ 100g đến 130g, hạt bên
+                                    trong có màu đen và nhỏ, phân bố vòng tròn đồng đều trong tâm quả kiwi.</p>
+                                <a class="btn-add-cart" href="">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+                        <div class="row content-product">
+                            <h2 class="content-product-title">Kiwi Vàng New Zealand</h2>
+                            <p class="content-product-description">
+                                Kiwi vàng new zealand được đánh giá là ngon nhất thế giới được trồng bởi một quy trình
+                                khép kín, được chăm sóc bởi hệ thống công nghệ tự động , hơn nữa diện tích trồng giống
+                                cây này cũng không có hạn nên giá thành thường đắt hơn kiwi xanh. Vitamin C: Kiwi vàng
+                                có hàm lượng Vitamin C là 105,4mg/100g còn cao hơn cả so với kiwi xanh (trung bình 1 quả
+                                kiwi xanh có lượng vitamin C bằng 02 quả cam). Vitamin B9: Theo wikipedia, 1 quả kiwi
+                                vàng có tới 34 μg, đây là vitamin rất tốt giúp phòng ngừa bệnh Tim, ngoài ra B9 còn là 1
+                                chất giúp cho bào thai phát triển bằng cách kích thích sự hình thành Neural tube, tiền
+                                thân của não bộ và cột sống. Chất xơ có trong quả kiwi giúp điều trị một số bệnh như
+                                tiểu đường bằng cách kiểm soát lượng đường trong máu, và giảm hàm lượng cholesterol xấu
+                                trong máu.
+                            </p>
+                            <div class="fb-cm">
+                                <div class="fb-comments" data-href="https://www.facebook.com/localhost.xyz"
+                                    data-width="100%" data-numposts="5"></div>
+                            </div>
+                        </div>
+                    </section>
+                    <aside class="col-md-4">
+                        <div id="sidebar" class="fl-right">
+                            <ul id="support">
+                                <li><img class="icon" src="public/images/icon-like.png">
+                                    <p class="content">
+                                        Cam kết giá tốt nhất Chúng tôi cam kết tới khách hàng những sản phẩm tốt nhất
+                                        với mức thấp nhất</p>
+                                </li>
+                                <li><img class="icon" src="public/images/icon-ship.png">
+                                    <p class="content">
+                                        Giao hàng toàn quốc Giao hàng tới 64 tỉnh thành với giá cước hợp lý nhất. Đảm
+                                        bảo thời gian tốt nhất</p>
+                                </li>
+                                <li><img class="icon" src="public/images/clock.png">
+                                    <p class="content">
+                                        Phục vụ 24/24 Giao hàng tới 64 tỉnh thành với giá cước hợp lý nhất. Thời gian
+                                        đối với chúng tôi là vàng</p>
+                                </li>
+                            </ul>
+                            <div id="ads">
+                                <img src="public/images/ads.jpg">
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+        </main>
+        <footer class="footer">
+            <div class="footer-main container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4 class="footer-main-title">Trụ Sở Chính Fresh Foods</h4>
+                            <ul class="footer-main-content">
+                                <li>Địa Chỉ: 25 Gia Quất, Thượng Thanh, Long Biên, Hà Nội</li>
+                                <li>Email: contact@freshfoods.vn</li>
+                                <li>SĐT: 0438716138</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="footer-main-title">SẢN PHẨM BÁN LẺ</h4>
+                            <ul class="footer-main-content">
+                                <li><a href="">Thịt & Cá Nhập Khẩu</a></li>
+                                <li><a href="">Hoa Quả Nhập Khẩu</a></li>
+                                <li><a href="">Bánh Kẹo & Thực Phẩm</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="footer-main-title">CHÍNH SÁCH BÁN HÀNG</h4>
+                            <ul class="footer-main-content">
+                                <li><a href="">Chính sách và quy định chung</a></li>
+                                <li><a href="">Chính sách vận chuyển</a></li>
+                                <li><a href="">Chính sách bảo mật thông tin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="text-center">Copyright © 2020 - All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="public/js/carousel/owl.carousel.js"></script>
+    <script src="public/js/app.js"></script>
+</body>
+
+</html>

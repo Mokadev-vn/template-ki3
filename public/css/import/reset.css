@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.body{
+    color: #555;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: Roboto;
+
+}
+
+.clear-pm{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+

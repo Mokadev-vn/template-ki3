@@ -1,0 +1,91 @@
+.info-cart {
+    width: 100%;
+    margin-top: 48px;
+    overflow: scroll;
+    min-width: 700px;
+}
+
+.info-cart tr {
+    padding: 12px 0;
+    border: 1px solid #b7b7b7;
+}
+
+.info-cart th {
+    font-size: 15px;
+    color: #333;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.info-cart tbody {
+    font-size: 16px;
+    color: #727272;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.info-cart tr td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.info-cart .thumb {
+    width: 100px;
+    border: 1px dashed #8a8a8a;
+    height: 100px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.info-cart .thumb img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.actions-cart {
+    overflow: scroll;
+    min-width: 700px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.actions-cart tr {
+    border: 1px solid #b7b7b7;
+    border-top: unset;
+}
+
+.actions-cart tr td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.total-price {
+    font-size: 15px;
+    line-height: 30px;
+    color: #3a3a3a;
+    font-weight: 500;
+}
+
+.actions-cart .tool {
+    float: right;
+    padding-right: 30px;
+}
+
+.actions-cart .tool .button {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.actions-cart .button {
+    padding: 14px 17px;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: #55a007;
+    color: #fff;
+}
+
+.actions-cart a:hover{
+    text-decoration: none;
+}

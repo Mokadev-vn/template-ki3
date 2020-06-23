@@ -1,0 +1,164 @@
+
+.navbar{
+    padding: 0 !important;
+}
+
+.header {
+    background-color:#80b435;
+    max-height: 70px;
+}
+
+.menu{
+    color: #ffffff;
+    position: relative;
+}
+
+.menu-link{
+    padding: 0 17px !important;
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 14px !important;
+}
+
+.menu-link:hover{
+    color: yellow !important;
+}
+
+
+
+.dropdown-item:hover{
+    border-left: 3px solid red;
+}
+
+.header-icon{
+    position: absolute;
+    left: 90%;
+}
+
+.utilities li{
+     padding: 21px 17px;
+     font-size: 14px;
+}
+
+.search-form{
+    display: none;
+    position: absolute !important;
+    top: 80%;
+    right: 50%;
+    z-index: 11;
+    width: 300px !important;
+}
+
+.qty{
+    position: absolute;
+    top: 15px;
+    right: 2px;
+    height: 25px;
+    width: 25px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.list-cart{
+    display: none;
+    position: absolute;
+    z-index: 11;
+    top: 50px;
+    left: -160px;
+    width: 250px;
+    border: 1px solid #555;
+    color: #000000;
+    background: #ffffff;
+    padding: 10px;
+}
+
+.list-cart-text{
+    margin: 0 !important;
+    padding: 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.list-cart-text span{
+    color: red;
+    font-weight: 500;
+}
+
+.cart-item li{
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    border-bottom:1px solid #a7a7a7;
+}
+
+.cart-item-thumbnail{
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    transition: transform .2s;
+}
+
+.cart-item-thumbnail:hover{
+    transform: scale(1.04);
+}
+
+.cart-item-info{
+    max-width: 100%;
+    padding: 8px 0;
+}
+
+.cart-item-info a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.cart-item-info a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.cart-item-price{
+    margin: 0 !important;
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.total-price{
+    font-size: 16px;
+    color: #555;
+    margin: 15px 0 !important;
+    font-weight: 500;
+}
+
+.total-price span{
+    display: inline-block;
+    float: right;
+}
+
+.cart-item-count{
+    color: #555;
+}
+
+.cart-btn-view, .cart-btn-checkout{
+    font-size: 14px !important;
+}
+
+
+#slider-home {
+    height: 420px;
+    width: 100%;
+    clear: both;
+    display: block;
+}
+
+#slider-home .owl-pagination {
+    bottom: 20px;
+}
+
+.img-banner{
+    width: 100%;
+    height: 100%;
+}
+
