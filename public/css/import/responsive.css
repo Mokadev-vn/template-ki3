@@ -1,3 +1,15 @@
+@media only screen and (max-width :5000px){
+    .img-banner{
+        height: 427px;
+    }
+}
+
+@media only screen and (max-width : 1380px){
+    .img-banner{
+        height: 100%;
+    }
+}
+
 @media only screen and (max-width :1200px){
     .header-icon{
         left: 88%;
