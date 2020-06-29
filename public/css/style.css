@@ -1,5 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700') ;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 @import url('import/reset.css');
 @import url('import/header.css');
 @import url('import/home.css');
@@ -10,3 +10,7 @@
 @import url('import/info-blog.css');
 
 @import url('import/responsive.css');
+
+/* *{
+    font-family: Pangolin;
+} */

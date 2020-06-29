@@ -57,6 +57,7 @@
 .product {
   background-color: #fff;
   margin: 0 10px;
+  height: 440px;
 }
 
 .thumbnail-product {
@@ -64,7 +65,14 @@
   padding: 8px;
 }
 
+@keyframes rotate360 {
+	100% { transform: rotate(360deg); }
+}
+
 .thumbnail-product:hover {
+  /* border-radius: 50%;
+  animation-name: rotate360;
+	animation-duration: 1s; */
   transform: scale(1.05);
 }
 
@@ -72,6 +80,7 @@
   border-top: 1px solid #7b7b7b;
 }
 
+ 
 #product-new .owl-prev,
 #product-new .owl-next {
   position: absolute;

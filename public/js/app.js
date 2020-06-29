@@ -57,4 +57,15 @@ $(document).ready(function () {
         itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
     })
 
+
+    $('#img-click').click(function(){
+        let img = $('#img-click').attr('src');
+        
+        var arr = $('.page-product-col a img');
+
+        for(let i = 0; i < arr.length; i++){
+            arr.eq(i).attr('src',img);
+        }
+    });
+
 });
